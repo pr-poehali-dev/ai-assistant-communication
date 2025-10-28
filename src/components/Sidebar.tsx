@@ -102,7 +102,7 @@ export default function Sidebar({ isOpen, onToggle, selectedModel, onModelChange
 
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black/50 z-40 lg:hidden"
+          className="fixed inset-0 bg-black/50 z-30 lg:hidden"
           onClick={onToggle}
         />
       )}
